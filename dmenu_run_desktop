@@ -1,2 +1,2 @@
 #!/bin/sh
-dmenu_path_desktop | dmenu -g 30 -l 30 "$@" | xargs gtk-launch &
+dmenu_path_desktop | dmenu -g 30 -l 30 -bw 3 "$@" | xargs gtk-launch &
